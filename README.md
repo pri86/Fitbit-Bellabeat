@@ -47,3 +47,18 @@ Group By t1.Id, t1.dates_d, t2.Calories
 Order by dates_d
 
 ```
+Like this we have to analyze the data by comparing sleep and calories , by analysing daily average analysis by conidering steps, distance and calories.
+
+## **Visualizing Data**
+
+In this phase, we will be visualizing the data analyzed and tables created using Tableau Public.
+
+## **Conclusion**
+
+After collecting, transforming, cleaning, organizing, and analyzing the datasets, we have gathered sufficient evidence to address the business-related questions posed.
+Our analysis indicates a strong correlation between the duration and intensity of physical activities and the number of calories burned.
+The recommendations I would provide to help solve this business-related scenario is  below.
+- Create tailored challenges that align with users' fitness goals, such as step targets, workout intensity, or sleep improvement.
+- Offer time-specific promotions and reminders based on peak activity hours (5:00 AM - 9:00 PM). Introduce morning or evening workout challenges, or remind users to get moving during typically inactive periods.
+- Implement smart notifications that specifically target users who consistently oversleep or undersleep.
+- Design seasonal campaigns (e.g., summer body challenges, winter wellness tips) that align with users’ changing fitness needs throughout the year. Introduce new features or challenges that cater to seasonal activities or common resolutions.
