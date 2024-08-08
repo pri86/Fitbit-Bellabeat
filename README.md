@@ -31,15 +31,19 @@ First make sure to import all of the dataset as a .csv file to the database serv
 Here, I will be transforming and organizing data by adding new columns, extracting information and removing empty and duplicates.
 In order to get accurate analysis, validate and make sure the dataset does not include any bias, incorrect data, and duplicates.
 
+
 ## **Analysis of Data**
 
 Here, I will be analysing the consumer data to discover trends and patterns.
-                                                   --Analysis--
---Calculate average met per day per user, and compare with the calories burned
+                                                  
+```
+                       Analysis
 
-Select Distinct t1.Id, t1.dates_d, sum(t1.METs) as sum_mets, t2.Calories
+Select Distinct t1.Id, t1.dates_d, sum(t1.METs)as sum_mets, t2.Calories
 From [dbo].[minuteMETsNarrow_merged] as t1
 inner join dailyActivity_merged as t2
 on t1.Id = t2.Id and t1.dates_d = t2.Date_d
 Group By t1.Id, t1.dates_d, t2.Calories
 Order by dates_d
+
+```
